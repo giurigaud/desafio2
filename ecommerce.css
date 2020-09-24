@@ -1,0 +1,301 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+}
+
+body {
+    background-color: #171B1E;
+}
+
+.cabecalho { 
+background-color: #0F1C26; 
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+color: white;
+align-items: center;
+margin-bottom: 1.5em;
+}
+
+#search {
+    background-color: #171B1E;
+    color: white;
+    border: none;
+}
+
+.banner-filme {
+    width: 4em;
+    height: 6em;
+}
+.cabecalho-search, .cabecalho-bemvindo, .cabecalho-favoritos, .cabecalho-promo {
+    display: flex;
+    align-items: center;
+    background-color: #0F1C26; 
+}
+
+img, span {
+    margin-right: 0.5em;
+}
+
+.cabecalho-bemvindo img {
+    max-width: 4.5em;
+    max-height: 3em;
+}
+
+.fundo-banner {
+    width: 870px;
+}
+.conteudo {
+    color: white; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteudo-barra-lateral {
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    margin-left: 1em;
+    background-color:  rgba(0, 0, 0, 0.2);
+    max-height: 27.5em;
+}
+
+.conteudo-principal {
+    position: relative;
+    margin-right: 1em;
+    width: 55em;
+}
+
+
+.money {
+    position: absolute;
+    right: 3em;
+    width: 253px;
+    height: 150px;
+    top: -2em;
+}
+
+.rodape-esquerda, .rodape-direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-rodape {
+    position: absolute;
+    top: 3.2em;
+    left: 0.5em;
+    color: rgba(15, 9, 21, 1);
+    display: flex;
+    justify-content: space-between;
+    width: 31em;
+}
+
+.aproveite {
+   font-family: 'Quantico', sans-serif;;
+   opacity: 80%;
+   font-size: 30px;
+   color: rgba(15, 9, 21, 1);
+   font-weight: 500;
+
+}
+.finaliza {
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    opacity: 80%;
+    color: rgba(15, 9, 21, 1);
+}
+
+.texto-banner {
+    position: absolute;
+    top: 1.0em;
+    left: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 31em;
+    
+}
+
+.sacola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #A785ED, #A785ED), linear-gradient(0deg, #C4C4C4, #C4C4C4);
+    padding: 1em 0;
+    
+}
+.sacola-vazia {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+#cupom-desconto {
+    background: rgba(11, 18, 23, 1);
+    border: none;
+    margin: 0 1em 1em 1em;
+    min-height: 2em;
+    color: palevioletred;
+}
+.um {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+.tres {
+    margin-left: 1em;
+    font-size: 12px;
+    color: rgba(253, 253, 253, 1);
+    font-weight: 400;
+}
+h2 {
+    margin-top: 2em;
+}
+
+.star1 {
+    margin-left: 0.5em;
+    margin-top: 0.7em;
+}
+
+.card-corpo-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 13em;
+    
+    margin-top: 10.5em;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+p {
+    margin-left: 0.7em;
+    font-size: 15px;
+    border: solid 3px rgba(0, 0, 0, 0.2);
+    height: 3em;
+    overflow: hidden;
+    margin-top: 2em;
+}
+
+.class-titulo {
+    width: 10em;
+}
+
+.card-corpo-rodape-figuras {
+    margin-left: 3.9em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-rodape {
+    background-color: rgba(167, 133, 237, 1);
+    width: 11.5em;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1em;
+    margin-left: 1em;
+    color: white;
+}
+
+#top-filmes {
+    margin-right: 0em;
+}
+.top-filmes-card { 
+    display: flex;
+    flex-direction: row;
+    margin-right: 0em;
+}
+
+.card {
+    background-color: black;
+    width: 10.1em;
+    height: 18em;
+    display: flex;
+    margin: 1em 1em 0 0;
+    background-size: cover;
+    
+} 
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    width: 56em;
+}
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    width: 56em;
+
+}
+
+
+
+.filmes-comedia > .card, .filmes-acao > .card, .filmes-romance > .card, .filmes-ficcao > .card, .filmes-terror > .card {
+    margin-top: 1em;
+}
+
+.botao-comedia, .botao-acao, .botao-romance , .botao-ficcao, .botao-terror {
+    background-color: rgba(225, 131, 200, 0.2);
+    border: 2px solid rgba(225, 131, 200, 1);
+    color: rgba(225, 131, 200, 1);
+    width: 10.1em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.sacola-cheia {
+    display: none;
+    flex-direction: column;
+}
+
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    height: 5.5em;
+}
+.produto-esquerda-preco > .preco {
+    font-size: 0.75em;
+    
+}
+.produto-esquerda-preco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3em;
+}
+
+.produto-esquerda, .produto-direita {
+    display: flex;
+    flex-direction: row;
+}
+
+.confirme-seus-dados {
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: rgba(226, 94, 191, 1);
+    min-height: 3em;
+    width: 16em;
+    padding: 0.5em;
+    font-size: 1em;
+    color: rgba(253, 253, 253, 1);
+    border: solid rgba(226, 94, 191, 1);
+}

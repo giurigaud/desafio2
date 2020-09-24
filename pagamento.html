@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Pagamento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pagamento.css">
+</head>
+
+<body>
+
+    <div class="cabecalho">
+        <div class="cabecalho-search">
+            <img src="https://cdn.discordapp.com/attachments/732232420958404669/756522031314370730/Arrow_-_Right_2.png">
+            <input type="search" placeholder="Pesquise filmes..." id="search">
+        </div>
+
+        <div class="cabecalho-favoritos">
+            <img src="https://cdn.discordapp.com/attachments/732232420958404669/756525152908345424/Bookmark.png">
+            Favoritos
+        </div>
+
+        <div class="cabecalho-promo">
+            <img src="https://cdn.discordapp.com/attachments/732232420958404669/756525147082719252/Discount.png">
+            Promoções
+        </div>
+
+        <div class="cabecalho-bemvindo">
+            <span>Bem vindo Matheuso</span>
+            <img src="d84b2b54e301244c0dd5b580768b100a.png">
+        </div>
+    </div>
+
+
+    <div class="conteudo">
+        <div class="conteudo-principal">
+            <div class="info-inicial">
+                <h2>Informações iniciais</h2>
+
+                <div class="nome-email">
+                    <div class="nome">
+                        <span>Insira seu nome completo</span>
+                        <input type="text" placeholder="Ex: Giuliana Rigaud" id="input-nome">
+                    </div>
+                    <div class="email">
+                        <span>Insira seu e-mail</span>
+                        <input type="email" placeholder="Ex: giurigaud@hotmail.com" id="input-email">
+                    </div>
+                </div>
+
+                <div class="telefone">
+                    <span>Telefone</span>
+                    <input type="tel" placeholder="+55 (71) 9    -  " id="input-email">
+                </div>
+
+            </div>
+
+            <div class="info-endereco">
+                <h2>Informações endereço</h2>
+                <div class="cep-pais">
+                    <div class="cep">
+                        <span>CEP</span>
+                        <input type="tel" placeholder="Ex: 00000-000" id="input-cep">
+                    </div>
+                    <div class="pais">
+                        <span>Pais</span>
+                        <input type="text" placeholder="Ex: Brasil" id="input-pais">
+                    </div>
+                </div>
+
+                <div class="cidade-bairro">
+                    <div class="cidade">
+                        <span>Cidades</span>
+                        <input type="text" placeholder="Ex: Salvador" id="input-salvador">
+                    </div>
+
+                    <div class="bairro">
+                        <span>Bairro</span>
+                        <input type="text" placeholder="Ex: Paralela" id="input-bairro">
+                    </div>
+                </div>
+
+
+                <div class="numero">
+                    <span>Número</span>
+                    <input type="number" placeholder="Ex: 00" id="input-numero">
+                </div>
+            </div>
+
+            <div class="info-pagamento">
+                <h2>Informações pagamento</h2>
+                <div class="numero-nome-cartao">
+                    <div class="numero-cartao">
+                        <span>Número do cartão</span>
+                        <input inputmode="numeric" placeholder="Ex: 00000000000" id="input-numero-cartao">
+                    </div>
+
+                    <div class="nome-cartao">
+                        <span>Bairro</span>
+                        <input type="text" placeholder="Ex: GIULIANA RIGAUD" id="input-nome-cartao">
+                    </div>
+                </div>
+                <div class="data-cvv-cartao">
+                    <div class="data-cartao">
+                        <span>Data de expiração</span>
+                        <input type="date" placeholder="MM/YYYY" id="input-validade-cartao">
+                    </div>
+
+                    <div class="cvv-cartao">
+                        <span>CVV</span>
+                        <input inputmode="numeric" placeholder="000" id="input-cvv-cartao">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="conteudo-barra-lateral">
+            <span class="resumo-pedido">Resumo dos pedidos</span>
+
+            <div class="sacola-vazia">
+                <div class="texto">
+                    <span class="um">Sua sacola está vazia</span>
+                    <span class="dois">Adicione filmes agora</span>
+                </div>
+
+                <img
+                    src="https://cdn.discordapp.com/attachments/754322594374746213/756569481874243655/sacola-vazia.png">
+
+            </div>
+
+            <div class="sacola-cheia">
+                <div class="sacola-cheia-produtos">
+                    <div class="produto">
+
+                        <div class="produto-esquerda">
+                            <img class="banner-filme"
+                                src="https://cdn.discordapp.com/attachments/754322594374746213/756569420146671707/filme-sacola.png">
+                            <div class="produto-esquerda-preco">
+                                <span class="titulo">Joker</span>
+                                <span class="preco">R$ 2,49</span>
+                            </div>
+                        </div>
+
+                        <div class="produto-direita">
+                            <img class="simbolo-mais"
+                                src="https://cdn.discordapp.com/attachments/754322594374746213/756569400726913145/add.png">
+                            <span class="quantidade-filmes">1</span>
+                            <img class="simbolo-lixeira"
+                                src="https://cdn.discordapp.com/attachments/754322594374746213/756569412995383356/delete.png">
+                        </div>
+
+                    </div>
+
+                    <div class="produto">
+                        <div class="produto-esquerda">
+                            <img class="banner-filme"
+                                src="https://cdn.discordapp.com/attachments/754322594374746213/756569420146671707/filme-sacola.png">
+                            <div class="produto-esquerda-preco">
+                                <span class="titulo">Joker</span>
+                                <span class="preco">R$ 2,49</span>
+                            </div>
+                        </div>
+
+                        <div class="produto-direita">
+                            <img class="simbolo-mais"
+                                src="https://cdn.discordapp.com/attachments/754322594374746213/756569400726913145/add.png">
+                            <span class="quantidade-filmes">2</span>
+                            <img class="simbolo-menos"
+                                src="https://cdn.discordapp.com/attachments/754322594374746213/756569412995383356/delete.png">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <span class="tres">Insira seu cupom</span>
+            <input type="text" placeholder="Cupom de desconto" id="cupom-desconto">
+            <button class="confirme-seus-dados">Confirme seus dados R$ 4.09</button>
+
+        </div>
+
+
+    </div>
+    <img src="https://cdn.discordapp.com/attachments/754322594374746213/756569481874243655/sacola-vazia.png"
+        class="fundo">
+
+    <script src="pagamento.js"></script>
+
+</body>

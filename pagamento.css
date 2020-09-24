@@ -1,0 +1,172 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+}
+
+body {
+    background-color: #171B1E;
+}
+
+.cabecalho { 
+    background-color: #0F1C26; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+#search {
+    background-color: #171B1E;
+    color: white;
+    border: none;
+}
+
+.banner-filme {
+    width: 4em;
+    height: 6em;
+}
+.cabecalho-search, .cabecalho-bemvindo, .cabecalho-favoritos, .cabecalho-promo {
+    display: flex;
+    align-items: center;
+    background-color: #0F1C26; 
+}
+
+img, span {
+    margin-right: 0.5em;
+}
+
+.cabecalho-bemvindo img {
+    max-width: 4.5em;
+    max-height: 3em;
+}
+
+.fundo-banner {
+    width: 870px;
+}
+.conteudo {
+    color: white; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteudo-barra-lateral {
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    margin-left: 1em;
+    background-color:  rgba(0, 0, 0, 0.2);
+    max-height: 27.5em;
+}
+
+.resumo-pedido{
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+#cupom-desconto {
+    background: rgba(11, 18, 23, 1);
+    border: none;
+    margin: 0 1em 1em 1em;
+    min-height: 2em;
+    color: palevioletred;
+    width: 16em;
+}
+.tres {
+    margin-left: 1em;
+    font-size: 12px;
+    color: rgba(253, 253, 253, 1);
+    font-weight: 400;
+}
+.sacola-cheia {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    height: 5.5em;
+}
+.produto-esquerda-preco > .preco {
+    font-size: 0.75em;
+    
+}
+.produto-esquerda-preco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3em;
+}
+
+.produto-esquerda, .produto-direita {
+    display: flex;
+    flex-direction: row;
+}
+
+.confirme-seus-dados {
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: rgba(226, 94, 191, 1);
+    min-height: 3em;
+    width: 16em;
+    padding: 0.5em;
+    font-size: 1em;
+    color: rgba(253, 253, 253, 1);
+    border: solid rgba(226, 94, 191, 1);
+}
+
+.info-endereco, .info-inicial, .info-pagamento {
+    background-color:  rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 45em;
+}
+
+.info-endereco, .info-pagamento {
+    margin-top: 2em;
+}
+
+.nome-email, .cep-pais, .cidade-bairro, .numero-nome-cartao , .data-cvv-cartao {
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+    color: white;
+    font-size: 0.8em;
+}
+
+h2 {
+    margin: 1em 0 0 1em ;
+}
+
+input {
+    background: rgba(11, 18, 23, 1);
+    color: rgba(253, 253, 253, 1);
+    border: none;
+    width: 18.5em;
+    min-height: 2em;
+    font-size: 1em;
+}
+
+.nome, .email, .telefone, .pais, .cidade, .bairro, .numero, .cep, .numero-cartao, .nome-cartao, .data-cartao, .cvv-cartao {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+} 
+
+.fundo {
+    position: absolute;
+    bottom: -9em;
+}
